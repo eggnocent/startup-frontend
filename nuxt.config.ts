@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'My Nuxt 3 App',
+      title: 'BWA Startup',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,6 +22,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss', // Pastikan Tailwind telah diinstal
+    '@pinia/nuxt',
   ],
 
   runtimeConfig: {
